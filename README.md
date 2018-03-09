@@ -90,7 +90,7 @@ userBeanBox = ObApplication.getBoxStore().boxFor(UserBean.class);
 //可以是一个实体类，也可以是个实体类的集合
  userBeanBox.put(userBean);
 </pre></code>
-* 删(可以是根据id删除表中某一条数据)
+* 删（可以是根据id删除表中某一条数据）
 <pre><code>
 userBeanBox.remove(id);
 </pre></code>
